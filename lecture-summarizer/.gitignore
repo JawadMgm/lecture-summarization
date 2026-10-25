@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Uploads & temp files
+backend/uploads/*
+!backend/uploads/.gitkeep
+ai-service/temp_audio_*.wav
+ai-service/downloads/*
+!ai-service/downloads/.gitkeep
+
+# Build output
+frontend/build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
